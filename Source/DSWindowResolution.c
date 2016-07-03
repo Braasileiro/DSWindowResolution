@@ -55,7 +55,7 @@ int main()
 
 		printf(" WindowWidth: ");
 		scanf("%i", &WindowWidth); fflush(stdin);
-		printf(" WindowWidth: ");
+		printf(" WindowHeight: ");
 		scanf("%i", &WindowHeight); fflush(stdin);
 
 		ShowWindow(GetConsoleWindow(), SW_HIDE); //Hiding Console
